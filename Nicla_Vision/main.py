@@ -16,7 +16,7 @@ sensor.set_framesize(sensor.QVGA)      # Set frame size to QVGA (320x240)
 sensor.set_windowing((240, 240))       # Set 240x240 window.
 sensor.skip_frames(time=2000)          # Let the camera adjust.
 
-# Cargar el modelo y las etiquetas
+# Load the model and labels
 net = None
 labels = None
 min_confidence = 0.7
@@ -140,10 +140,3 @@ while True:
             data = [255, 1, center_y]
             uart.write(bytearray(data))
             time.sleep_ms(5)
-            #print(f"Data sent: {list(data)}")
-
-    #if distance<proximity_threshold:
-    #    print("Object too close! Stop!")
-
-    #print(f"Proximity: {distance}mm")
-    #print(clock.fps(), "fps", end="\n\n")
