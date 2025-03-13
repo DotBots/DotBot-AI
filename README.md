@@ -4,7 +4,7 @@ This repository contains the **SEGGER Embedded Studio project** for controlling 
 The Nicla Vision detects objects and sends their **Y-coordinate** via UART. The DotBot firmware, written in **C**, processes this data to control the motors accordingly.
 
 ## Project Structure
-- "Nicla_Vision/main.py": MicroPython code for Nicla Vision.
+- `Nicla_Vision/main.py`: MicroPython code for Nicla Vision.
 - "Nicla_Vision/trained_stitch.tflite": Trained AI model for detection.
 - "Nicla_Vision/labels_stitch.txt": Model labels.
 - "DotBot_firmware_AI/DotBot_control_motors_AI.c": C code for receiving data and controlling the motors.
@@ -29,6 +29,7 @@ The Nicla Vision detects objects and sends their **Y-coordinate** via UART. The 
 
 ```bash
 git clone https://github.com/DotBots/DotBot-firmware
+```
 
 - Make sure DotBot-AI and DotBot-Firmware are in the same directory.
 
