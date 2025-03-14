@@ -21,10 +21,11 @@ The Nicla Vision detects objects and sends their **Y-coordinate** via UART. The 
 - Adjusts **motor speed and direction** accordingly.
 
 ## DotBot Setup
-Here are two images showing how the **Nicla Vision** is mounted on the DotBot:
+Here are two images showing how the **Nicla Vision** is mounted on the DotBot and a diagram showing the pins to be connected:
 
 <img src="Images/nicla_on_dotbot_1.jpeg" alt="Nicla Vision on DotBot - Front View" width="400"/>  
 <img src="Images/nicla_on_dotbot_2.jpeg" alt="Nicla Vision on DotBot - Back View" width="400"/> 
+<img src="Images/nicla_on_dotbot_connections.jpg" alt="Connections Diagram" width="400"/> 
 
 ## Installation & Setup
 
