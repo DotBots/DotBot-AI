@@ -55,7 +55,10 @@ git clone https://github.com/DotBots/DotBot-firmware
 ### 2.- Turn the Dotbot switch to `ON`. DotBot will automatically begin detecting and tracking the object.
 
 ## Object to Track  
-By default, the system is trained to detect and follow a **Stitch plush toy**.  
+By default, the system is trained to detect and follow a **Stitch plush toy**.
+
+<img src="Images/object_stitch.jpeg" alt="Currently tracked object" width="400"/> 
+
 If you want to track a different object, you may need to retrain the AI model.
 
 ## Training a Custom Model  
