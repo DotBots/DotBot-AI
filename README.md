@@ -22,8 +22,8 @@ The Nicla Vision detects objects and sends their **Y-coordinate** via UART. The 
 
 ## DotBot Setup
 Here are two images showing how the **Nicla Vision** is mounted on the DotBot:
-![Nicla Vision on DotBot - Front View](Images/nicla_on_dotbot_1.jpg)
-![Nicla Vision on DotBot - Back View](Images/nicla_on_dotbot_2.jpg)
+![Nicla Vision on DotBot - Front View](Images/nicla_on_dotbot_1.jpeg)
+![Nicla Vision on DotBot - Back View](Images/nicla_on_dotbot_2.jpeg)
 
 ## Installation & Setup
 
